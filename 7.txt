@@ -3,3 +3,11 @@ tcp
 udp
 icmp
 dns
+arp
+http
+ip.addrr==ip
+ip.src_host==ip
+ip.dst_host==ip
+http.request.method==POST
+tcp.flags.syn==1
+tcp.port==21
