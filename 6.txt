@@ -1,0 +1,17 @@
+help
+set
+ver
+systeminfo
+driverquery | more
+ipconfig /all
+ping
+tracert
+nslookup
+netstat
+tasklist
+taskkill /PID
+cd
+dir
+tree
+mkdir
+rmdir

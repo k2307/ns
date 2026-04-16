@@ -1,0 +1,5 @@
+sudo apt-get install ipsec-tools strongswan-starter -y
+sudo gedit /etc/ipsec.conf
+sudo gedit /etc/ipsec.secrets
+sudo ipsec restart
+sudo ipsec statusall

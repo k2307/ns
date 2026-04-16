@@ -1,0 +1,6 @@
+sudo apt install iptables
+sudo iptables -L
+sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+sudo iptables -L -v -n
+sudo iptables -P INPUT DROP
+sudo iptables -L -n --line-numbers
